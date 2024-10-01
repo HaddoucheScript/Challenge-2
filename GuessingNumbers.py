@@ -2,13 +2,11 @@ import random
 cpt1=0
 cpt2=0
 y=10
-st=str(y)
+st='uty'
 x=random.randint(0,9)
-while(x!=y)and(st!='exit'):
+while(x!=y):
     y=input('please guess a number from 0 to 9   ')
     r=y-x
-    st=str(y)
-    print(st)
     if r==0:
         print(' Congratulations! You win ')
     elif r<0:
